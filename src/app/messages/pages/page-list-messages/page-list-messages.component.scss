@@ -1,0 +1,76 @@
+.c-message_kit__tombstone {
+  padding: 8px 20px;
+}
+
+.c-message_kit__gutter {
+  display: flex;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.conversation {
+  display: block;
+  margin: 20px;
+}
+.cards-user {
+  img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner {
+  font-weight: 500;
+}
+
+.date {
+  display: flex;
+  p {
+    margin-right: 20px;
+  }
+}
+
+.modal-header {
+  background: #28364b;
+}
+
+.btn-close {
+  background-color: #e7e7e7;
+}
+
+.icon-btn {
+  display: flex;
+  margin-top: -9px;
+  margin-right: -9px;
+}
+.btn-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  // padding: 12px 16px;
+  font-size: 15px;
+  margin: 10px 3px;
+  padding: 10px;
+}
+
+.btn-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  // padding: 12px 16px;
+  font-size: 15px;
+  margin: 10px 8px;
+  padding: 10px;
+}

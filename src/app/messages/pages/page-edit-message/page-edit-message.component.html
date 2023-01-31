@@ -1,0 +1,3 @@
+<app-template-container title="Modifier le message" *ngIf="message$ | async as message">
+  <app-form-message [init]="message" (submitted)="$event"></app-form-message>
+</app-template-container>

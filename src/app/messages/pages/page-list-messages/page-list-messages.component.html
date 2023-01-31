@@ -1,0 +1,47 @@
+<div class="conversation">
+  <app-page-list-channel-name></app-page-list-channel-name>
+  <hr />
+  <div class="content" *ngIf="messages$ | async as messages">
+    <div *ngFor="let message of messages">
+      <div class="cards-user d-flex mb-3" *ngIf="displayConversation(message.channelId)">
+        <img src="../../../../assets/images/user3.png">
+        <div class="card text-dark bg-light" style="margin-left: 20px; width: 100%;">
+          <div class="card-header">
+            <div class="owner">
+              <p>{{ message.owner }}</p>
+            </div>
+            <div class="date">
+              <p>{{ message.createdDate }}</p>
+
+              <!-- <ng-template #content let-c="close" let-d="dismiss">
+                <div class="modal-header">
+                  <app-template-container class="modal-title" title="Modifier le message"></app-template-container>
+                  <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+                </div>
+                <div class="modal-body">
+                  <app-page-edit-message></app-page-edit-message>
+                </div>
+              </ng-template> -->
+
+              <div class="icon-btn">
+                <app-icon-edit class="btn-edit btn btn-lg btn-outline-primary"
+                  (click)="updateMessage(message.id)"></app-icon-edit>
+                <app-icon-delete class="btn-edit btn btn-lg btn-outline-danger"
+                (click)="goToDelete(message.id)"></app-icon-delete>
+              </div>
+
+            </div>
+          </div>
+          <div class="card-body">
+            <p>
+              {{message.text}}
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <app-page-add-message></app-page-add-message>
+
+</div>

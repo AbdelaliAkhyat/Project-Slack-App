@@ -1,0 +1,8 @@
+<!-- Show channel name as title in conversation page (start)-->
+<!-- this page html is used in the page-list-message html -->
+<div class="name-channel" *ngIf="channels$ | async as channels">
+  <div *ngFor="let channel of channels">
+    <h5 *ngIf="isChannel(channel.id)">{{channel.channelName}}</h5>
+  </div>
+</div>
+<!-- Show channel name as title in conversation page (end)-->

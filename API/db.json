@@ -1,0 +1,161 @@
+{
+  "channels": [
+    {
+      "channelName": "Général",
+      "channelUser": "Formateur1, Formateur2, Formateur3, User1 , User2, User3",
+      "createdDate": "30/01/2023 9:32:55",
+      "description": "C'est le seul canal où tout le monde se retrouve",
+      "id": 1
+    },
+    {
+      "channelName": "Groupe pour discution",
+      "channelUser": "User1, User2, User3, User4",
+      "createdDate": "12/11/2022 15:14:22",
+      "description": "Canal de discution entre les apprenants",
+      "id": 2
+    },
+    {
+      "channelName": "Groupe 2 - projet CRM",
+      "channelUser": "User2, User3",
+      "createdDate": "27/12/2022 12:14:22",
+      "description": "Canal de groupe 2 pour travailler sur le projet CRM",
+      "id": 3
+    },
+    {
+      "channelName": "Entraide",
+      "channelUser": "User3",
+      "createdDate": "30/01/2023 3:43:47",
+      "description": "sdg",
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "text": "J'ai fini ma partie",
+      "owner": "User2",
+      "createdDate": "08/01/2023 10:12:29",
+      "id": 3,
+      "channelId": 3
+    },
+    {
+      "text": "ça va ?",
+      "owner": "User2",
+      "createdDate": "08/01/2023 10:12:29",
+      "id": 4,
+      "channelId": 4
+    },
+    {
+      "text": "Au revoir",
+      "owner": "user3",
+      "createdDate": "29/01/2023 19:26:07",
+      "channelId": "1",
+      "id": 5
+    },
+    {
+      "text": "Ok",
+      "owner": "User1",
+      "createdDate": "29/01/2023 19:28:37",
+      "channelId": 1,
+      "id": 6
+    },
+    {
+      "text": "dsfsdf",
+      "owner": "Abdelali",
+      "createdDate": "30/01/2023 9:35:02",
+      "channelId": 1,
+      "id": 8
+    },
+    {
+      "text": "Hi",
+      "owner": "Abdelali",
+      "createdDate": "30/01/2023 11:10:52",
+      "channelId": 2,
+      "id": 10
+    },
+    {
+      "text": "bonjour",
+      "createdDate": "31/01/2023 15:49:01",
+      "id": 11
+    },
+    {
+      "text": "cvbcb",
+      "createdDate": "31/01/2023 15:50:44",
+      "id": 12
+    },
+    {
+      "text": "fdgfg",
+      "createdDate": "31/01/2023 15:52:18",
+      "id": 13
+    },
+    {
+      "text": "fdgfg",
+      "createdDate": "31/01/2023 15:52:19",
+      "id": 14
+    },
+    {
+      "text": "fdgfg",
+      "createdDate": "31/01/2023 15:52:52",
+      "id": 15
+    },
+    {
+      "text": "sdfds",
+      "createdDate": "31/01/2023 16:01:04",
+      "channelId": null,
+      "id": 16
+    },
+    {
+      "text": "sddsqs",
+      "createdDate": "31/01/2023 16:14:17",
+      "channelId": null,
+      "id": 17
+    },
+    {
+      "text": "sddsqs",
+      "createdDate": "31/01/2023 16:14:24",
+      "channelId": null,
+      "id": 18
+    },
+    {
+      "text": "qdfsqd",
+      "createdDate": "31/01/2023 16:18:41",
+      "channelId": null,
+      "id": 19
+    },
+    {
+      "text": "SDFDSF",
+      "createdDate": "31/01/2023 16:21:52",
+      "channelId": 4,
+      "id": 20
+    },
+    {
+      "text": "SQDSQ",
+      "createdDate": "31/01/2023 16:22:31",
+      "channelId": 4,
+      "id": 21
+    },
+    {
+      "text": "HELLO",
+      "createdDate": "31/01/2023 16:22:46",
+      "channelId": 1,
+      "id": 22
+    },
+    {
+      "text": "dsfsdf",
+      "createdDate": "31/01/2023 16:29:24",
+      "channelId": 2,
+      "id": 23
+    },
+    {
+      "text": "sdfsdf",
+      "createdDate": "31/01/2023 16:36:34",
+      "channelId": 2,
+      "id": 24
+    },
+    {
+      "text": ",vbhgkj",
+      "createdDate": "31/01/2023 16:49:01",
+      "channelId": 2,
+      "id": 25
+    }
+  ]
+}

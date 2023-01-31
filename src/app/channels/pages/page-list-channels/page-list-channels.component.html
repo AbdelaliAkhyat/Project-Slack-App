@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col" *ngIf="channels$ | async as channels">
+    <!-- Div for dropdown (start) -->
+    <!-- dropdown with a button that displays the list of channels.
+      this list displayed with using the for loop -->
+    <div ngbDropdown class="dropdown">
+      <!-- name of button (start)-->
+      <button type="button" class="btn btn-primary btn-block" id="dropdownBasic1" ngbDropdownToggle>
+        Canaux
+      </button>
+      <!-- name of button (end)-->
+
+      <!-- dropdown list (start) -->
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="menu">
+        <ul class="">
+          <!-- Loop ngFor for displays channelName exesting in database (start)-->
+          <li class="d-flex justify-content-between" *ngFor="let channel of channels">
+            <!-- Item link of channelName for go to the corresponding channel page after click (start)-->
+            <a class="item-link" (click)="goToPageMessageOfChannel(channel.id)" routerLinkActive="active">
+              {{ channel.channelName }}
+            </a>
+            <!-- Item link of channelName for go to the corresponding channel page after click (end)-->
+
+            <!-- icon edit and delete for go to the form page for edit after edit click or delete channel
+              after delete click (start)-->
+            <div>
+              <app-icon-edit (click)="goToEdit(channel.id)" title="Edit channel"></app-icon-edit>
+              <app-icon-delete (click)="goToDelete(channel.id)" title="Delete channel"></app-icon-delete>
+            </div>
+            <!-- icon edit and delete for go to the form page for edit after edit click or delete channel
+              after delete click (end)-->
+
+          </li>
+          <!-- Loop ngFor for displays channelName exesting in database (end)-->
+
+          <!-- Button add for go to the form page after add click (start) -->
+          <app-btn classButton="btn btn-primary mt-4" route="channels/add" label="Créer un nouveau canal"
+            title="Créer un nouveau canal"></app-btn>
+          <!-- Button add for go to the form page after add click (end) -->
+
+        </ul>
+      </div>
+      <!-- dropdown list (end) -->
+    </div>
+    <!-- Div for dropdown (end) -->
+  </div>
+</div>

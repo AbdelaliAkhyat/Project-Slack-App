@@ -1,0 +1,3 @@
+<app-template-container title="Modifier le canal" *ngIf="channel$ | async as channel">
+  <app-form-channel [init]="channel" (submitted)="action($event)" ></app-form-channel>
+</app-template-container>

@@ -1,0 +1,29 @@
+.ui {
+  height: 100vh;
+}
+
+header {
+  background: var(--app-darklight);
+}
+
+.content {
+  background: var(--app-light);
+}
+
+.close-nav {
+  width: 0px;
+}
+
+aside {
+  background: #28364b;
+  overflow: hidden;
+}
+
+nav {
+  width: 250px;
+  transition: 200ms;
+}
+
+footer {
+  background: rgba(216, 215, 215, 0.582);
+}

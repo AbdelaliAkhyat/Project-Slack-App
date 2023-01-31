@@ -1,0 +1,29 @@
+.logo-app {
+  display: flex;
+  margin-top: 9px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+.logo {
+  max-width: 50px;
+  max-height: 33px;
+}
+
+h2 {
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 200%;
+  font-weight: bold;
+  text-indent: 15px;
+}
+
+.nav-link {
+  color: var(--app-primary);
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.active {
+  color: var(--app-primary);
+}

@@ -1,0 +1,49 @@
+.item-link {
+  color: var(--app-light);
+}
+
+.item-link:hover {
+  color: var(--app-primary);
+}
+
+.active {
+  background: var(--app-light);
+  color: var(--app-primary);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 10px 0;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  li:not(:last-child) {
+    border-bottom: 1px solid #0000ff73;
+  }
+  li:hover a {
+    color: rgb(248, 6, 6);
+    font-weight: bold;
+    transform: translateX(10px);
+    transition: 0.3s;
+  }
+}
+
+.dropdown {
+  display: grid;
+}
+.dropdown-menu.show {
+  display: block;
+  width: max-content;
+}
+
+.menu {
+  padding: 0 10px;
+  width: 100% !important;
+  cursor: pointer;
+}
